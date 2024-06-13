@@ -1,0 +1,162 @@
+/* Product1.module.css */
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 150px;
+  padding: 100px;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.details p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.details ul {
+  margin: 5px 0;
+  color: #555;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.button {
+  float: right;
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+  background-color: #ce42ff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #f4d6ff;
+  color: #ce42ff;
+}
+
+.reviewSection {
+  margin-top: 20px;
+}
+
+.reviewInput {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.reviewButton {
+  float: left;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  color: white;
+  background-color: #ce42ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.submitButton:hover {
+  background-color: #f4d6ff;
+  color: #ce42ff;
+}
+
+.divider {
+  margin: 20px 0;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* deletion */
+.deleteButton {
+  float: right;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.saveButton {
+  float: right;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.cancelButton {
+  float: right;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.editButton {
+  float: right;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}
+
+.editTextArea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 0.9em;
+}

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.content {
+  flex: 0.5;
+  padding: 60px;
+}
+
+.image {
+  flex: 0.9;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.h1 {
+  font-weight: normal;
+
+  font-size: 70px;
+  text-align: left;
+}
+
+.h2 {
+  font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+}
+
+.p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.button {
+  float: left;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  background-color: #ce42ff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+}

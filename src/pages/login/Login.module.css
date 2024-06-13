@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  margin: 100px;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #ce42ff;
+  color: white;
+  border-radius: 100px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #f4d6ff;
+}
